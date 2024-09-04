@@ -7,7 +7,7 @@ export default () => (
     {
       <div>
         <Navbar />
-        <div className="container my-4">{Routes}</div>
+        <div className="container">{Routes}</div>
       </div>
     }
   </>

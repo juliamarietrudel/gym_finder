@@ -17,9 +17,13 @@ const GymMap = ({ latitude, longitude }) => {
       onMove={(evt) => setViewState(evt.viewState)}
       style={{ width: "100%", height: 400 }}
       mapStyle="mapbox://styles/mapbox/streets-v11"
-      mapboxAccessToken={window.REACT_APP_MAPBOX_TOKEN}
+      mapboxAccessToken={window.ENV.REACT_APP_MAPBOX_TOKEN}
     >
-      <Marker latitude={latitude} longitude={longitude} color="red" />
+      <Marker
+        latitude={parseFloat(latitude)}
+        longitude={parseFloat(longitude)}
+        color="black"
+      />
     </Map>
   );
 };

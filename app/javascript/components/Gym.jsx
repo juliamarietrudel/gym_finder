@@ -54,7 +54,7 @@ const Gym = () => {
           <Rating rating={gym.rating} />
         </div>
         <div className="col-sm">
-          <GymMap />
+          <GymMap latitude={gym.latitude} longitude={gym.longitude} />
         </div>
       </div>
     </div>

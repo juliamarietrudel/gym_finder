@@ -7,7 +7,7 @@ export default () => (
       <div className="secondary-color">
         <h1 className="display-4">Climbing Gyms</h1>
         <p className="lead">A list of all the climbing gyms near you.</p>
-        <hr className="my-4" />
+        {/* <hr className="my-4" /> */}
         <Link to="/gyms" className="btn btn-lg custom-button" role="button">
           View Gyms
         </Link>

@@ -5,9 +5,8 @@ class Api::V1::GymsController < ApplicationController
   end
 
   def show
-    Rails.logger.info "Params: #{params.inspect}"
-    Rails.logger.info "Request headers: #{request.headers.env.select { |k, v| k.start_with?('HTTP_') }.inspect}"
     gym = Gym.find(params[:id])
-    render json: gym
+    Rails.logger.info "Gym data: #{gym.attributes.inspect}"
+    render json: gym.as_json(only: [ :id, :name, :address, :description, :rating, :latitude, :longitude ])
   end
 end
