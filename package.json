@@ -19,11 +19,13 @@
     "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "mapbox-gl": "^3.6.0",
     "nodemon": "^3.1.4",
     "postcss": "^8.4.44",
     "postcss-cli": "^11.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-map-gl": "^7.1.7",
     "react-router-dom": "^6.26.1",
     "sass": "^1.78.0"
   },

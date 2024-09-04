@@ -3,7 +3,7 @@ class CreateGyms < ActiveRecord::Migration[7.2]
     create_table :gyms do |t|
       t.string :name
       t.string :address
-      t.string :description, default: 'No description available'
+      t.text :description
       t.integer :rating, default: 0
       t.timestamps
     end

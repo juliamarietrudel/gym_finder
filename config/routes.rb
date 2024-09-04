@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   namespace :api do
-    resources :gyms
+    namespace :v1 do
+      resources :gyms, only: [ :index, :show ]
+    end
   end
-root "homepage#index"
-get '*path', to: 'homepage#index'
+
+  root "homepage#index"
+  get "*path", to: "homepage#index"
 end

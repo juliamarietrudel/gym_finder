@@ -7,17 +7,20 @@ gyms = [
   {
     name: "Allez Up - Mile End",
     address: "5600 Av. de Gaspé, Montréal, QC H2T 2A7",
-    rating: 3
+    rating: 3,
+    description: ''
   },
   {
     name: "Allez Up - Pointe St-Charles",
     address: "1555 Rue Saint-Patrick, Montréal, QC H3K 2B7",
-    rating: 4
+    rating: 4,
+    description: ''
   },
   {
     name: "Bloc Shop - Chabanel",
     address: "1370 Rue Chabanel O, Montréal, QC H4N 1H4",
-    rating: 4
+    rating: 4,
+    description: ''
   },
   {
     name: "Bloc Shop - Mile-Ex",
@@ -28,12 +31,14 @@ gyms = [
   {
     name: "Backbone",
     address: "100 Rue du Rubis, Bromont, QC J2L 0G2",
-    rating: 4
+    rating: 4,
+    description: ''
   },
   {
     name: "Mouv'",
     address: " 3811 Rue Everett, Montréal, QC H2A 1S8",
-    rating: 3
+    rating: 3,
+    description: ''
   }
 ]
 
